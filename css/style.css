@@ -1,9 +1,15 @@
 button {
-  display: inline;
+  /* display: inline; */
   padding: 5px 80px;
 }
 
-.container {
+.container-fluid {
   background-color: rgba(255, 0, 0, 0.3);
   height: 100vh;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
 }

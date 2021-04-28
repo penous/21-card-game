@@ -14,8 +14,8 @@ const values = [
   'Q',
   'K',
 ];
-const player = { hand: [] };
-const cpu = { hand: [] };
+// const player = { hand: [], total: 0 };
+// const cpu = { hand: [], total: 0 };
 let deck = [];
 
 const createDeck = () => {
