@@ -44,6 +44,7 @@ const startGame = () => {
   player.countHand();
   displayCards(player, playerHand);
   displayTotal(player, playerTotal);
+
   // computer
   com = new Player();
   com.drawCard(deck);
